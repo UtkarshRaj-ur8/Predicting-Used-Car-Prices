@@ -14,8 +14,8 @@ This tool aims to solve the "Information Asymmetry" problem in the auto market, 
 # Features
 - End-to-End Pipeline: A complete workflow from raw data cleaning (handling null values, parsing strings like "50,000 km") to final model inference.
 - Smart Feature Extraction:
-- Derived CarAge from the "Year" column.
-- Parsed "Engine Capacity" and "Power" from string formats (e.g., "1197 cc") into numerical features.
+   - Derived CarAge from the "Year" column.
+   - Parsed "Engine Capacity" and "Power" from string formats (e.g., "1197 cc") into numerical features.
 - Interactive EDA: Visualized depreciation curves to show how value drops over time and how different brands retain value differently.
 - Single-Instance Prediction: Includes a helper function that takes a raw dictionary of car details (e.g., {'Model': 'City', 'Km': 50000}) and returns a price estimate in currency format.
 
